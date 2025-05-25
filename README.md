@@ -1,177 +1,125 @@
-# 🚀 OBS System
+# 🎓 Student Information System (OBS) / Öğrenci Bilgi Sistemi
 
-A comprehensive Online Booking System (OBS) designed to streamline the reservation process for businesses and clients. This project aims to provide a user-friendly interface for managing bookings, schedules, and client data, making it easier for organizations to handle appointments efficiently.
+## English
 
-## ✨ Features
+A comprehensive Student Information System (OBS) designed to streamline the management of students, courses, grades, and academic administration for educational institutions. This project provides a secure, user-friendly, and efficient platform for students, teachers, and administrators to manage academic processes.
 
-- 🔑 **User Authentication:** Secure login and registration for users and admins.
-- 📅 **Booking Management:** Create, update, and cancel reservations with ease.
-- 🗓️ **Schedule Management:** View and manage available time slots.
-- 👤 **Client Management:** Store and manage client information securely.
-- 🔔 **Notifications:** Automated email or SMS notifications for booking confirmations and reminders.
-- 🛠️ **Admin Dashboard:** Powerful dashboard for administrators to monitor system activity and manage resources.
-- 📊 **Reporting:** Generate reports on bookings, cancellations, and resource utilization.
+### ✨ Features
 
-## 🛠️ Technologies Used
+- 🔑 **User Authentication:** Secure login for students, teachers, and administrators.
+- 🏫 **Student Management:** Add, update, and view student records and personal information.
+- 📚 **Course Management:** Create and manage courses, assign students and teachers.
+- 📝 **Grade Tracking:** Teachers can enter grades, and students can view their academic performance.
+- 🗓️ **Schedule Management:** Manage class schedules, timetables, and exam dates.
+- 🔔 **Notifications:** Automated notifications for important academic events and announcements.
+- 🛠️ **Admin Dashboard:** Comprehensive dashboard for administrators to oversee all academic activity.
+- 📊 **Reporting:** Generate reports on student progress, attendance, and course statistics.
 
-- **Backend:** [Specify your backend framework, e.g., Node.js, Django, Laravel, etc.]
-- **Frontend:** [Specify your frontend framework, e.g., React, Vue.js, Angular, etc.]
-- **Database:** [Specify your database, e.g., MySQL, PostgreSQL, MongoDB, etc.]
-- **Authentication:** [JWT, OAuth, etc.]
-- **Notifications:** [Email/SMS service or package used]
+### 🛠️ Technologies Used
 
-## ⚙️ Installation
+- **Backend:** PHP
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** MySQL
+
+### ⚙️ Installation
 
 1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/MOHAMAD-ALDEBS/OBS-SYSTEM.git
-    cd OBS-SYSTEM
-    ```
+   ```bash
+   git clone https://github.com/MOHAMAD-ALDEBS/OBS-SYSTEM.git
+   cd OBS-SYSTEM
+   ```
+2. **Database Setup**
+   - Create a MySQL database.
+   - Import the provided `database.sql` file to set up tables.
+3. **Configuration**
+   - Edit `config.php` and update your database credentials.
+4. **Run the Application**
+   - Deploy the project in a PHP-compatible server environment (e.g., XAMPP, WAMP, LAMP).
+   - Access via your browser at `http://localhost/OBS-SYSTEM` or your configured path.
 
-2. **Install Dependencies**
-    ```bash
-    # For backend
-    cd backend
-    npm install
+### 🚦 Usage
 
-    # For frontend
-    cd ../frontend
-    npm install
-    ```
+- Login as a student, teacher, or administrator.
+- Manage students, courses, grades, and schedules from the dashboard.
+- Use the reporting tools for academic data insights.
 
-3. **Configure Environment Variables**
-    - Copy `.env.example` to `.env` in both backend and frontend folders.
-    - Update the environment variables as needed.
+### 🤝 Contributing
 
-4. **Database Setup**
-    - Run migrations or set up your database according to the backend framework instructions.
-
-5. **Start the Application**
-    ```bash
-    # Start backend
-    cd backend
-    npm start
-
-    # Start frontend
-    cd ../frontend
-    npm start
-    ```
-
-## 🚦 Usage
-
-- Access the application via [http://localhost:3000](http://localhost:3000) (or your configured port).
-- Register as a new user or log in as an admin.
-- Manage bookings, schedules, and client information from the dashboard.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
+Contributions are welcome! Please:
 1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -am 'Add new feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Create a Pull Request.
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Describe your feature'`
+4. Push the branch: `git push origin feature/your-feature`
+5. Open a Pull Request.
 
-## 📝 License
+### 📝 License
 
 [MIT](LICENSE)
 
-## 📬 Contact
+### 📬 Contact
 
 For questions or support, please contact [MOHAMAD-ALDEBS](https://github.com/MOHAMAD-ALDEBS).
 
 ---
 
-*Feel free to customize this README with additional details about your project, installation instructions, or usage scenarios!*
+## Türkçe
 
----
+Eğitim kurumları için öğrenci, ders, not ve akademik yönetim süreçlerini kolaylaştırmak amacıyla geliştirilmiş kapsamlı bir Öğrenci Bilgi Sistemi (OBS). Bu proje; öğrenciler, öğretmenler ve yöneticiler için güvenli, kullanıcı dostu ve verimli bir platform sunar.
 
-## 🇹🇷 Türkçe Sürüm
+### ✨ Özellikler
 
-# 🚀 OBS Sistemi
+- 🔑 **Kullanıcı Girişi:** Öğrenci, öğretmen ve yöneticiler için güvenli giriş.
+- 🏫 **Öğrenci Yönetimi:** Öğrenci kayıt işlemleri, güncelleme ve görüntüleme.
+- 📚 **Ders Yönetimi:** Ders oluşturma, yönetme ve öğrenci/öğretmen atama işlemleri.
+- 📝 **Not Takibi:** Öğretmenler not girişi yapabilir, öğrenciler notlarını görüntüleyebilir.
+- 🗓️ **Ders Programı Yönetimi:** Ders programı ve sınav tarihlerini yönetme.
+- 🔔 **Bildirimler:** Akademik etkinlikler ve duyurular için otomatik bildirim sistemi.
+- 🛠️ **Yönetici Paneli:** Yöneticiler için tüm akademik faaliyetleri izleyebileceği kapsamlı panel.
+- 📊 **Raporlama:** Öğrenci ilerlemesi, devamsızlık ve ders istatistikleri için rapor alma.
 
-İşletmeler ve müşteriler için rezervasyon sürecini kolaylaştırmak üzere tasarlanmış kapsamlı bir Online Rezervasyon Sistemi (OBS). Bu proje, rezervasyonları, programları ve müşteri verilerini yönetmek için kullanıcı dostu bir arayüz sağlar ve organizasyonların randevuları verimli bir şekilde yönetmesini kolaylaştırır.
+### 🛠️ Kullanılan Teknolojiler
 
-## ✨ Özellikler
+- **Backend:** PHP
+- **Frontend:** HTML, CSS, JavaScript
+- **Veritabanı:** MySQL
 
-- 🔑 **Kullanıcı Kimlik Doğrulama:** Kullanıcılar ve yöneticiler için güvenli giriş ve kayıt.
-- 📅 **Rezervasyon Yönetimi:** Kolayca rezervasyon oluşturma, güncelleme ve iptal etme.
-- 🗓️ **Takvim Yönetimi:** Mevcut zaman dilimlerini görüntüleme ve yönetme.
-- 👤 **Müşteri Yönetimi:** Müşteri bilgilerini güvenli bir şekilde saklama ve yönetme.
-- 🔔 **Bildirimler:** Rezervasyon onayları ve hatırlatmaları için otomatik e-posta veya SMS bildirimleri.
-- 🛠️ **Yönetici Paneli:** Yöneticiler için güçlü bir panel ile sistem aktivitelerini izleme ve kaynakları yönetme.
-- 📊 **Raporlama:** Rezervasyonlar, iptaller ve kaynak kullanımı hakkında raporlar oluşturma.
-
-## 🛠️ Kullanılan Teknolojiler
-
-- **Backend:** [Kullandığınız backend frameworkünü belirtin, örn. Node.js, Django, Laravel, vb.]
-- **Frontend:** [Kullandığınız frontend frameworkünü belirtin, örn. React, Vue.js, Angular, vb.]
-- **Veritabanı:** [Kullandığınız veritabanını belirtin, örn. MySQL, PostgreSQL, MongoDB, vb.]
-- **Kimlik Doğrulama:** [JWT, OAuth, vb.]
-- **Bildirimler:** [Kullanılan e-posta/SMS servisi veya paketi]
-
-## ⚙️ Kurulum
+### ⚙️ Kurulum
 
 1. **Depoyu Klonlayın**
-    ```bash
-    git clone https://github.com/MOHAMAD-ALDEBS/OBS-SYSTEM.git
-    cd OBS-SYSTEM
-    ```
+   ```bash
+   git clone https://github.com/MOHAMAD-ALDEBS/OBS-SYSTEM.git
+   cd OBS-SYSTEM
+   ```
+2. **Veritabanı Kurulumu**
+   - Bir MySQL veritabanı oluşturun.
+   - `database.sql` dosyasındaki tabloları içe aktarın.
+3. **Yapılandırma**
+   - `config.php` dosyasındaki veritabanı bilgilerini güncelleyin.
+4. **Uygulamayı Çalıştırın**
+   - Projeyi PHP uyumlu bir sunucuda (XAMPP, WAMP, LAMP vb.) devreye alın.
+   - Tarayıcıdan `http://localhost/OBS-SYSTEM` veya ayarladığınız yol üzerinden erişin.
 
-2. **Bağımlılıkları Yükleyin**
-    ```bash
-    # Backend için
-    cd backend
-    npm install
+### 🚦 Kullanım
 
-    # Frontend için
-    cd ../frontend
-    npm install
-    ```
+- Öğrenci, öğretmen veya yönetici olarak giriş yapın.
+- Panelden öğrenci, ders, not ve program yönetimini gerçekleştirin.
+- Raporlama araçlarıyla akademik verileri görüntüleyin.
 
-3. **Ortam Değişkenlerini Ayarlayın**
-    - `.env.example` dosyasını hem backend hem de frontend klasörlerinde `.env` olarak kopyalayın.
-    - Gerekli ortam değişkenlerini güncelleyin.
+### 🤝 Katkıda Bulunma
 
-4. **Veritabanı Kurulumu**
-    - Backend framework talimatlarına göre migrasyonları çalıştırın veya veritabanınızı kurun.
-
-5. **Uygulamayı Başlatın**
-    ```bash
-    # Backend'i başlatın
-    cd backend
-    npm start
-
-    # Frontend'i başlatın
-    cd ../frontend
-    npm start
-    ```
-
-## 🚦 Kullanım
-
-- Uygulamayı [http://localhost:3000](http://localhost:3000) (veya ayarladığınız portta) açın.
-- Yeni bir kullanıcı olarak kaydolun veya yönetici olarak giriş yapın.
-- Panelden rezervasyonlarınızı, takvimlerinizi ve müşteri bilgilerinizi yönetin.
-
-## 🤝 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
-
+Katkılarınızı bekliyoruz! Lütfen:
 1. Depoyu çatallayın (fork).
-2. Yeni bir dal oluşturun: `git checkout -b feature/ozellik-adi`
-3. Değişikliklerinizi ekleyin: `git commit -am 'Yeni özellik ekle'`
-4. Dalı gönderin: `git push origin feature/ozellik-adi`
-5. Bir Pull Request oluşturun.
+2. Yeni bir dal oluşturun: `git checkout -b ozellik/ozellik-adi`
+3. Değişikliklerinizi ekleyin: `git commit -m 'Özellik açıklaması'`
+4. Dalı gönderin: `git push origin ozellik/ozellik-adi`
+5. Pull Request açın.
 
-## 📝 Lisans
+### 📝 Lisans
 
 [MIT](LICENSE)
 
-## 📬 İletişim
+### 📬 İletişim
 
-Sorularınız veya destek için lütfen [MOHAMAD-ALDEBS](https://github.com/MOHAMAD-ALDEBS) ile iletişime geçin.
+Sorularınız veya destek için [MOHAMAD-ALDEBS](https://github.com/MOHAMAD-ALDEBS) ile iletişime geçebilirsiniz.
 
 ---
-
-*Bu README dosyasını projenize özel ek bilgiler, kurulum talimatları veya kullanım senaryolarıyla özelleştirebilirsiniz!*
