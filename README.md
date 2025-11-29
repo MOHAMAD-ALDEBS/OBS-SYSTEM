@@ -1,5 +1,14 @@
 # 🎓 Student Information System (OBS) / Öğrenci Bilgi Sistemi
 
+## 📺 Project Presentation
+
+**Watch the full project presentation on YouTube:**
+[![Project Presentation](https://img.youtube.com/vi/GaJiqwI18oA/0.jpg)](https://www.youtube.com/watch?v=GaJiqwI18oA)
+
+[Click here to watch the presentation](https://www.youtube.com/watch?v=GaJiqwI18oA)
+
+---
+
 ## English
 
 A comprehensive Student Information System (OBS) designed to streamline the management of students, courses, grades, and academic administration for educational institutions. This project provides a secure, user-friendly, and efficient platform for students, teachers, and administrators to manage academic processes.
@@ -105,21 +114,6 @@ Eğitim kurumları için öğrenci, ders, not ve akademik yönetim süreçlerini
 - Panelden öğrenci, ders, not ve program yönetimini gerçekleştirin.
 - Raporlama araçlarıyla akademik verileri görüntüleyin.
 
-### 🤝 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Lütfen:
-1. Depoyu çatallayın (fork).
-2. Yeni bir dal oluşturun: `git checkout -b ozellik/ozellik-adi`
-3. Değişikliklerinizi ekleyin: `git commit -m 'Özellik açıklaması'`
-4. Dalı gönderin: `git push origin ozellik/ozellik-adi`
-5. Pull Request açın.
-
 ### 📝 Lisans
 
 [MIT](LICENSE)
-
-### 📬 İletişim
-
-Sorularınız veya destek için [MOHAMAD-ALDEBS](https://github.com/MOHAMAD-ALDEBS) ile iletişime geçebilirsiniz.
-
----
